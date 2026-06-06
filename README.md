@@ -23,8 +23,13 @@ A hands-on data engineering course covering the core tools and concepts used in 
 
 | File | Description |
 |------|-------------|
+| `README.md` | Setup and run instructions for this week |
 | `docker-compose.yml` | Launches a PostgreSQL 16 container with a persistent volume |
+| `load.py` | Python script to create the `rides` table and load `rides.csv` via PostgreSQL COPY |
+| `requirements.txt` | Python dependencies for this week |
 | `rides.csv` | Sample ride-sharing dataset (ride fares, distances, statuses across Nepali cities) |
+| `load.py` | Python script to create the `rides` table and load `rides.csv` via PostgreSQL COPY |
+| `requirements.txt` | Python dependencies for this week |
 
 ### Dataset Schema
 
